@@ -533,7 +533,7 @@ const APPS_DATA = [
     "tagline": "Knowledge Base & Ensiklopedia Dokumentasi Internal",
     "description": "Knowledge Base & Ensiklopedia Dokumentasi Internal. Dikembangkan dan dirancang secara interaktif di lingkungan FLUXY.ID.",
     "category": "Productivity & Tools",
-    "demoUrl": "",
+    "demoUrl": "https://s.id/daryapedia",
     "githubUrl": "",
     "scratchPath": "",
     "techStack": [
