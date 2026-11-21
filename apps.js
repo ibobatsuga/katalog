@@ -292,7 +292,7 @@ const APPS_DATA = [
   },
   {
     "id": "forecasting-hety",
-    "name": "Forecasting HETY",
+    "name": "Forecasting",
     "originalTitle": "App Forecasting HETY",
     "tagline": "Dashboard Prediksi Permintaan & Analitik Penjualan Masa Depan",
     "description": "Dashboard Prediksi Permintaan & Analitik Penjualan Masa Depan. Dikembangkan dan dirancang secara interaktif di lingkungan FLUXY.ID.",
@@ -371,7 +371,7 @@ const APPS_DATA = [
   },
   {
     "id": "picme",
-    "name": "PicMe / EventPhoto AI",
+    "name": "PicMe",
     "originalTitle": "App PicMe",
     "tagline": "Marketplace Foto Event dengan AI Face Recognition & Selfie Search",
     "description": "Marketplace Foto Event dengan AI Face Recognition & Selfie Search. Dikembangkan dan dirancang secara interaktif di lingkungan FLUXY.ID.",
@@ -397,7 +397,7 @@ const APPS_DATA = [
   },
   {
     "id": "muvo",
-    "name": "Muvo / Dolan",
+    "name": "Muvo",
     "originalTitle": "App  Muvo",
     "tagline": "Marketplace Sewa Mobil & Rental Wisata Jogja",
     "description": "Marketplace Sewa Mobil & Rental Wisata Jogja. Dikembangkan dan dirancang secara interaktif di lingkungan FLUXY.ID.",
@@ -579,7 +579,7 @@ const APPS_DATA = [
   },
   {
     "id": "bukutamu",
-    "name": "BukuTamu / Smart Reception",
+    "name": "BukuTamu",
     "originalTitle": "App BukuTamu",
     "tagline": "Penerimaan Tamu Pernikahan Digital dengan QR Code & Layar Sapa",
     "description": "Penerimaan Tamu Pernikahan Digital dengan QR Code & Layar Sapa. Dikembangkan dan dirancang secara interaktif di lingkungan FLUXY.ID.",
@@ -606,7 +606,7 @@ const APPS_DATA = [
   },
   {
     "id": "hypelab",
-    "name": "HypeLab / HypeWatch",
+    "name": "HypeLab",
     "originalTitle": "App HypeLab",
     "tagline": "Analisis Tren Konten Viral & Reverse Engineering Hook Sosmed",
     "description": "Analisis Tren Konten Viral & Reverse Engineering Hook Sosmed. Dikembangkan dan dirancang secara interaktif di lingkungan FLUXY.ID.",
@@ -658,7 +658,7 @@ const APPS_DATA = [
   },
   {
     "id": "undangan",
-    "name": "Invitable / Undangan Digital",
+    "name": "UndanganKu",
     "originalTitle": "App Undangan",
     "tagline": "Platform Undangan Pernikahan Mewah dengan Animasi Interaktif",
     "description": "Platform Undangan Pernikahan Mewah dengan Animasi Interaktif. Dikembangkan dan dirancang secara interaktif di lingkungan FLUXY.ID.",
@@ -816,7 +816,7 @@ const APPS_DATA = [
   },
   {
     "id": "phantomlab",
-    "name": "PhantomLab / PhantomWave",
+    "name": "PhantomLab",
     "originalTitle": "App PhantomLab",
     "tagline": "Audio Stealth Synthesizer & Waveform Processing Lab",
     "description": "Audio Stealth Synthesizer & Waveform Processing Lab. Dikembangkan dan dirancang secara interaktif di lingkungan FLUXY.ID.",
