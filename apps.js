@@ -611,7 +611,7 @@ const APPS_DATA = [
     "tagline": "Analisis Tren Konten Viral & Reverse Engineering Hook Sosmed",
     "description": "Analisis Tren Konten Viral & Reverse Engineering Hook Sosmed. Dikembangkan dan dirancang secara interaktif di lingkungan FLUXY.ID.",
     "category": "Marketing & Growth",
-    "demoUrl": "https://spytrend.com",
+    "demoUrl": "https://hypewatch.pages.dev/",
     "githubUrl": "",
     "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/hypewatch",
     "techStack": [
