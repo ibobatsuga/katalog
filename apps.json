@@ -866,5 +866,32 @@
     "date": "2026-11-21",
     "conversationId": "",
     "screenshot": "dashdish.png"
+  },
+  {
+    "id": "nextq",
+    "name": "NextQ",
+    "originalTitle": "NextQ - Antrean Mandiri Cerdas",
+    "tagline": "Sistem Antrean Mandiri Cerdas & Display TV Klinik Gading",
+    "description": "Sistem antrean klinik mandiri berbasis web PWA terintegrasi untuk Klinik Gading. Memiliki Kios Sentuh Mandiri, Layar Display TV, dan Konsol Operator Dokter.",
+    "category": "AI & Healthcare",
+    "demoUrl": "https://nextq-kappa.vercel.app",
+    "githubUrl": "https://github.com/ibobatsuga/nextq",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/nextq",
+    "techStack": [
+      "PWA",
+      "JavaScript",
+      "Web Audio API",
+      "Web Speech API",
+      "Vercel"
+    ],
+    "features": [
+      "Kios sentuh mandiri 4 poli klinik (Umum, Gigi, KIA/KB, Laboratorium)",
+      "Layar display TV antrean dengan audio calling Text-to-Speech otomatis",
+      "Konsol operator dokter & pemanggil antrean berikutnya terintegrasi",
+      "Cetak struk thermal 58mm/80mm & export rekap data CSV harian"
+    ],
+    "date": "2026-11-21",
+    "conversationId": "",
+    "screenshot": "nextq.png"
   }
 ]
