@@ -481,7 +481,7 @@ const APPS_DATA = [
     "tagline": "Enterprise Resource Planning Modular untuk Industri Manufaktur",
     "description": "Enterprise Resource Planning Modular untuk Industri Manufaktur. Dikembangkan dan dirancang secara interaktif di lingkungan FLUXY.ID.",
     "category": "Enterprise & ERP",
-    "demoUrl": "",
+    "demoUrl": "https://boisterous-cendol-c96a76.netlify.app/",
     "githubUrl": "https://github.com/dewanakl/belah-ketupat-erp",
     "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/starline-erp",
     "techStack": [
@@ -893,5 +893,137 @@ const APPS_DATA = [
     "date": "2026-11-21",
     "conversationId": "",
     "screenshot": "nextq.png"
+  },
+  {
+    "id": "majelis-pro",
+    "name": "Majelis Pro",
+    "originalTitle": "Majelis Pro - Jadwal & Rumah Ibadah",
+    "tagline": "Direktori & Jadwal Rumah Ibadah, Waktu Sholat Otomatis, Transparansi Kas & Kajian",
+    "description": "Platform informasi dan manajemen operasional rumah ibadah terpadu. Dilengkapi jadwal sholat otomatis berbasis koordinat GPS, transparansi laporan kas masjid, agenda pengajian & kajian, serta penunjuk arah kiblat presisi.",
+    "category": "Events & Wedding",
+    "demoUrl": "https://majelispro.vercel.app",
+    "githubUrl": "",
+    "scratchPath": "",
+    "techStack": [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Geolocation API",
+      "Vercel"
+    ],
+    "features": [
+      "Jadwal sholat otomatis & hitung mundur waktu adzan",
+      "Transparansi laporan keuangan dan infaq/kas masjid",
+      "Direktori rumah ibadah terdekat & kalender agenda kajian",
+      "Kompas penunjuk arah kiblat real-time interaktif"
+    ],
+    "date": "2026-11-21",
+    "conversationId": "",
+    "screenshot": "majelis-pro.png"
+  },
+  {
+    "id": "micdrop",
+    "name": "MicDrop",
+    "originalTitle": "MicDrop - Voiceover Academy",
+    "tagline": "Platform Edukasi Voiceover, Dubbing, & Audio Creative Studio",
+    "description": "Platform pembelajaran dan pelatihan voiceover academy interaktif. Menghubungkan voice actor pemula hingga profesional dengan kurikulum teknik vokal, studio rekaman mandiri, dan showcase portofolio audio.",
+    "category": "Audio & Creative",
+    "demoUrl": "https://s.id/appmicdrop",
+    "githubUrl": "",
+    "scratchPath": "",
+    "techStack": [
+      "Web Audio API",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Vercel"
+    ],
+    "features": [
+      "Modul latihan modulasi vokal, intonasi, & pernapasan",
+      "Studio rekaman audio take dengan visualizer waveform",
+      "Showcase kurikulum Voiceover Academy profesional",
+      "Evaluasi feedback rekaman audio real-time"
+    ],
+    "date": "2026-11-21",
+    "conversationId": "",
+    "screenshot": "micdrop.png"
+  },
+  {
+    "id": "nalajiwa",
+    "name": "NalaJiwa",
+    "originalTitle": "NALAJIWA - Kenali Polamu",
+    "tagline": "Tes Refleksi Kepribadian 16 Tipe dengan Karakter Anime & Laporan Mendalam",
+    "description": "Aplikasi asesmen kepribadian dan tes refleksi diri 16 tipe kepribadian yang divisualisasikan dengan seni karakter anime estetis. Menyediakan laporan analisis komprehensif 20 bagian mencakup psikologi, relasi, karier, dan potensi diri.",
+    "category": "AI & Healthcare",
+    "demoUrl": "https://zingy-sprite-23ae27.netlify.app",
+    "githubUrl": "",
+    "scratchPath": "",
+    "techStack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Netlify"
+    ],
+    "features": [
+      "Tes psikometri refleksi kepribadian 16 arketipe",
+      "Visualisasi kartu ilustrasi karakter anime eksklusif",
+      "Laporan kepribadian mendalam 20 bagian terstruktur",
+      "Analisis gaya komunikasi, kekuatan, dan kompatibilitas relasi"
+    ],
+    "date": "2026-11-21",
+    "conversationId": "",
+    "screenshot": "nalajiwa.png"
+  },
+  {
+    "id": "sipgn-helper",
+    "name": "SIPGN Helper",
+    "originalTitle": "SIPGN & Laporan Keuangan SPPG",
+    "tagline": "Sistem Terpadu Laporan Keuangan SPPG, Buku Kas Umum & Validasi Pajak",
+    "description": "Aplikasi pendukung administrasi dan pembukuan keuangan SPPG (Satuan Pelayanan Pengadaan Gabah/Beras). Mengotomasi pencatatan Buku Kas Umum (BKU), Buku Pembantu Kas, Pajak, Laporan Penggunaan Anggaran (LPA), dan validasi saldo.",
+    "category": "Finance & Kas",
+    "demoUrl": "https://fanciful-banoffee-78c30b.netlify.app/",
+    "githubUrl": "",
+    "scratchPath": "",
+    "techStack": [
+      "JavaScript ES6+",
+      "CSS3 Variables",
+      "HTML5 Semantik",
+      "Netlify"
+    ],
+    "features": [
+      "Otomasi Buku Kas Umum (BKU) dan Buku Pembantu Kas",
+      "Kalkulator dan pencatatan potongan pajak transaksi",
+      "Laporan Penggunaan Anggaran (LPA) dan validasi saldo otomatis",
+      "Form bantu penginputan pembelian langsung siap salin ke SIPGN"
+    ],
+    "date": "2026-11-21",
+    "conversationId": "",
+    "screenshot": "sipgn-helper.png"
+  },
+  {
+    "id": "lakon-ai",
+    "name": "Lakon AI",
+    "originalTitle": "Lakon AI - Kreasi & Kanvas",
+    "tagline": "Studio Kreasi Naskah Skenario, Kanvas Cerita, & Karakter Berbasis AI",
+    "description": "Studio kreatif kecerdasan buatan untuk penulis naskah, sutradara, dan kreator cerita. Membantu perancangan skenario film/teater, pembangkitan prompt karakter visual terintegrasi ModelArk BytePlus, dan kanvas papan cerita interaktif.",
+    "category": "Creative & Media",
+    "demoUrl": "https://lakonai-hazel.vercel.app/",
+    "githubUrl": "https://github.com/ibobatsuga/lakonai",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/lakonai",
+    "techStack": [
+      "Node.js",
+      "BytePlus ModelArk API",
+      "Canvas API",
+      "Vercel"
+    ],
+    "features": [
+      "Generator naskah adegan dan dialog multi-karakter",
+      "Kanvas perancangan alur cerita dan breakdown adegan",
+      "Visualisasi karakter dan referensi moodboard kreatif",
+      "Penyimpanan sesi kreatif privat dan ekspor naskah standar industri"
+    ],
+    "date": "2026-11-21",
+    "conversationId": "",
+    "screenshot": "lakonai.png"
   }
 ];
