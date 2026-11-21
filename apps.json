@@ -847,7 +847,7 @@
     "tagline": "Aplikasi Web Progresif (PWA) Pesan Antar Kedai Tanpa Potongan Komisi",
     "description": "Platform pemesanan dan pengantaran makanan minuman langsung dari kedai dengan kurir mandiri internal tanpa biaya komisi aplikasi pihak ketiga. Dilengkapi portal Pelanggan, Dapur & Kasir (Kanban), serta Aplikasi Kurir.",
     "category": "Enterprise & ERP",
-    "demoUrl": "https://dashdish.vercel.app",
+    "demoUrl": "https://dashdish-kedai.vercel.app/",
     "githubUrl": "",
     "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/dashdish",
     "techStack": [
