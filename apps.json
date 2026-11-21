@@ -1,0 +1,923 @@
+[
+  {
+    "id": "educheck",
+    "name": "EduCheck",
+    "originalTitle": "App EduCheck",
+    "tagline": "Sistem Verifikasi & Rekap Evaluasi Akademik Sekolah",
+    "description": "Sistem Verifikasi & Rekap Evaluasi Akademik Sekolah. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Education",
+    "demoUrl": "https://educheck-wiworojati.vercel.app",
+    "githubUrl": "https://github.com/ibobatsuga/educheck",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/educheck",
+    "techStack": [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "TypeScript",
+      "Vercel"
+    ],
+    "features": [
+      "Cek nilai rapor & kelulusan siswa",
+      "Validasi NISN & QR Code",
+      "Portal verifikasi instan untuk wali murid",
+      "Export rekap evaluasi belajar"
+    ],
+    "date": "2026-11-21",
+    "conversationId": "9d0f739c-4893-48c6-8274-c58f8d6b6c62",
+    "screenshot": "educheck.png"
+  },
+  {
+    "id": "estimate",
+    "name": "EstiMate",
+    "originalTitle": "App EstiMate",
+    "tagline": "Kalkulator Estimasi Biaya & Pembuat Penawaran Instan via WhatsApp",
+    "description": "Kalkulator Estimasi Biaya & Pembuat Penawaran Instan via WhatsApp. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Productivity & Tools",
+    "demoUrl": "https://estimate-eight-theta.vercel.app",
+    "githubUrl": "https://github.com/ibobatsuga/estimate.git",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/estimate",
+    "techStack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "WhatsApp API",
+      "Vercel"
+    ],
+    "features": [
+      "Kalkulasi RAB proyek konstruksi & renovasi",
+      "Generate invoice & quotation instan",
+      "Integrasi direct-send pesan penawaran ke WhatsApp",
+      "Manajemen template material & jasa"
+    ],
+    "date": "2026-11-20",
+    "conversationId": "de7283ed-8938-4eb5-bf69-4f18ddf45a08",
+    "screenshot": "estimate.png"
+  },
+  {
+    "id": "presensync",
+    "name": "PresenSync",
+    "originalTitle": "App Presensync",
+    "tagline": "Sistem Presensi Digital & Sinkronisasi Shift Terpadu",
+    "description": "Sistem Presensi Digital & Sinkronisasi Shift Terpadu. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Productivity & Tools",
+    "demoUrl": "https://presensync-livid.vercel.app",
+    "githubUrl": "https://github.com/ibobatsuga/presensync",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/presensync",
+    "techStack": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vercel"
+    ],
+    "features": [
+      "Sinkronisasi absensi real-time antar shift",
+      "Geofencing & validasi lokasi GPS",
+      "Dashboard monitoring keterlambatan",
+      "Rekap jam kerja otomatis bulanan"
+    ],
+    "date": "2026-11-20",
+    "conversationId": "46f689f2-45dc-4e8a-882b-eb9031730e29",
+    "screenshot": "presensync.png"
+  },
+  {
+    "id": "nataartha",
+    "name": "NataArtha",
+    "originalTitle": "App NataArtha",
+    "tagline": "Aplikasi Manajemen Keuangan & Pembukuan Kas Usaha Simpel",
+    "description": "Aplikasi Manajemen Keuangan & Pembukuan Kas Usaha Simpel. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Finance & Kas",
+    "demoUrl": "https://nataarta.vercel.app",
+    "githubUrl": "https://github.com/ibobatsuga/nataarta",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/nataarta",
+    "techStack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "PWA",
+      "Vercel"
+    ],
+    "features": [
+      "Pencatatan arus kas masuk & keluar",
+      "Visualisasi neraca & laba rugi bulanan",
+      "Kategorisasi transaksi otomatis",
+      "Ekspor laporan kas siap cetak"
+    ],
+    "date": "2026-11-20",
+    "conversationId": "f60f3f87-0a5d-45b4-9cbe-b8e630380016",
+    "screenshot": "nataartha.png"
+  },
+  {
+    "id": "kaskampung",
+    "name": "KasKampung",
+    "originalTitle": "App KasKampung",
+    "tagline": "Portal Transparansi Kas Warga & Iuran Lingkungan RT/RW",
+    "description": "Portal Transparansi Kas Warga & Iuran Lingkungan RT/RW. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Finance & Kas",
+    "demoUrl": "https://kaskampung.vercel.app",
+    "githubUrl": "https://github.com/ibobatsuga/kaskampung",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/kaskampung",
+    "techStack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Vercel"
+    ],
+    "features": [
+      "Pencatatan iuran RT/RW transparan untuk warga",
+      "Laporan pemasukan & pengeluaran kas terbuka",
+      "Notifikasi iuran warga",
+      "Grafik saldo & kas darurat kampung"
+    ],
+    "date": "2026-11-20",
+    "conversationId": "468aacbd-a817-41b7-ad11-d8e3e2e60bac",
+    "screenshot": "kaskampung.png"
+  },
+  {
+    "id": "poko-ads",
+    "name": "Poko Ads",
+    "originalTitle": "App Poko Ads",
+    "tagline": "Mobile-First Ads & Marketing Campaign Dashboard",
+    "description": "Mobile-First Ads & Marketing Campaign Dashboard. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Marketing & Growth",
+    "demoUrl": "https://pokoads.vercel.app",
+    "githubUrl": "https://github.com/ibobatsuga/pokoads.git",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/pokoads",
+    "techStack": [
+      "Next.js",
+      "Tailwind CSS",
+      "TypeScript",
+      "Vercel"
+    ],
+    "features": [
+      "Monitoring metrik performa ROAS & CTR",
+      "Optimasi anggaran iklan digital multi-channel",
+      "Desain responsif mobile-first",
+      "Analitik kampanye real-time"
+    ],
+    "date": "2026-11-20",
+    "conversationId": "e7873865-3341-4ac4-a201-a432e4a25480",
+    "screenshot": "poko-ads.png"
+  },
+  {
+    "id": "meowney-planner",
+    "name": "Meowney Planner",
+    "originalTitle": "App Meowney Planner",
+    "tagline": "Aplikasi Financial Tracker Menggemaskan dengan Maskot Lucky Cat",
+    "description": "Aplikasi Financial Tracker Menggemaskan dengan Maskot Lucky Cat. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Finance & Kas",
+    "demoUrl": "https://meowney-blush.vercel.app",
+    "githubUrl": "https://github.com/ibobatsuga/meowney",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/meowney",
+    "techStack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Vercel"
+    ],
+    "features": [
+      "Maskot Lucky Cat interaktif dengan status finansial",
+      "Budget planner harian & bulanan",
+      "Visualisasi tabungan 'Celengan Kucing'",
+      "Catatan pengeluaran cepat dalam 1 klik"
+    ],
+    "date": "2026-11-19",
+    "conversationId": "ca074632-9592-4fdb-bb5c-d12c28d09a75",
+    "screenshot": "meowney-planner.png"
+  },
+  {
+    "id": "calorai",
+    "name": "CalorAI",
+    "originalTitle": "App CalorAI",
+    "tagline": "Pemindai Kalori & Rekomendasi Nutrisi AI Serverless",
+    "description": "Pemindai Kalori & Rekomendasi Nutrisi AI Serverless. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "AI & Healthcare",
+    "demoUrl": "https://calorai.nalarasa.workers.dev/",
+    "githubUrl": "",
+    "scratchPath": "",
+    "techStack": [
+      "Cloudflare Workers",
+      "Gemini AI",
+      "Tailwind CSS",
+      "Edge Runtime"
+    ],
+    "features": [
+      "Scan makanan foto langsung hitung estimasi kalori",
+      "Analisis makronutrisi (karbo, protein, lemak)",
+      "Rekomendasi diet harian terpersonalisasi",
+      "Eksekusi cepat berbasis Cloudflare Edge"
+    ],
+    "date": "2026-11-17",
+    "conversationId": "8c4486d4-9543-45a3-aca1-e904f293784e",
+    "screenshot": "calorai.png"
+  },
+  {
+    "id": "poko-scrap",
+    "name": "Poko Scrap",
+    "originalTitle": "App Poko Scrap",
+    "tagline": "Platform Web Scraping & Lead Extraction Dashboard",
+    "description": "Platform Web Scraping & Lead Extraction Dashboard. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Marketing & Growth",
+    "demoUrl": "https://pokoscrap.fluxy.id",
+    "githubUrl": "https://github.com/ibobatsuga/pokoscrap",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/pokoscrap",
+    "techStack": [
+      "Python",
+      "FastAPI",
+      "React",
+      "Playwright",
+      "Docker"
+    ],
+    "features": [
+      "Scraping Google Maps, direktori bisnis & kontak B2B",
+      "Filter target audiens berdasarkan wilayah & industri",
+      "Ekspor data bersih ke CSV & Excel",
+      "Deduplikasi nomor WA & email otomatis"
+    ],
+    "date": "2026-11-13",
+    "conversationId": "5a125477-8832-4a87-8282-37ee77083572",
+    "screenshot": "poko-scrap.png"
+  },
+  {
+    "id": "emeraldgate",
+    "name": "EmeraldGate",
+    "originalTitle": "App EmeraldGate",
+    "tagline": "Sistem Keamanan Akses Gerbang & Buku Tamu Digital QR",
+    "description": "Sistem Keamanan Akses Gerbang & Buku Tamu Digital QR. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Productivity & Tools",
+    "demoUrl": "",
+    "githubUrl": "",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/emeraldgate",
+    "techStack": [
+      "Google Apps Script",
+      "Google Sheets",
+      "QR Code Engine",
+      "PWA"
+    ],
+    "features": [
+      "Pemindaian QR tiket tamu di pos keamanan",
+      "Integrasi sinkronisasi langsung ke Google Sheets",
+      "Pencatatan plat nomor kendaraan & jam kunjungan",
+      "Sistem izin masuk instan warga komplek"
+    ],
+    "date": "2026-11-13",
+    "conversationId": "76c35670-cb85-4d7a-8010-f06511b93cc9",
+    "screenshot": "emeraldgate.png"
+  },
+  {
+    "id": "poko-bot",
+    "name": "Poko Bot",
+    "originalTitle": "App Poko Bot",
+    "tagline": "Omnichannel AI Chatbot & Customer Support WhatsApp",
+    "description": "Omnichannel AI Chatbot & Customer Support WhatsApp. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Marketing & Growth",
+    "demoUrl": "https://ping-clone-poc.vercel.app",
+    "githubUrl": "https://github.com/ibobatsuga/pokobot",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/pokobot-waha-backend",
+    "techStack": [
+      "Next.js",
+      "WAHA (WhatsApp HTTP API)",
+      "Node.js",
+      "Vercel"
+    ],
+    "features": [
+      "Pusat inbox pesan omnichannel (WA, IG, Web)",
+      "Auto-reply pintar berbasis AI intent",
+      "Manajemen agent CS & transfer tiket",
+      "Kirim broadcast berkala aman & terpantau"
+    ],
+    "date": "2026-11-12",
+    "conversationId": "3f81cf53-5368-4ac0-a3fd-d785e79241f4",
+    "screenshot": "poko-bot.png"
+  },
+  {
+    "id": "forecasting-hety",
+    "name": "Forecasting HETY",
+    "originalTitle": "App Forecasting HETY",
+    "tagline": "Dashboard Prediksi Permintaan & Analitik Penjualan Masa Depan",
+    "description": "Dashboard Prediksi Permintaan & Analitik Penjualan Masa Depan. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Enterprise & ERP",
+    "demoUrl": "",
+    "githubUrl": "",
+    "scratchPath": "",
+    "techStack": [
+      "Python",
+      "Streamlit",
+      "Prophet",
+      "Plotly",
+      "Pandas"
+    ],
+    "features": [
+      "Model peramalan deret waktu permintaan stok",
+      "Analisis tren musiman & anomali penjualan",
+      "Estimasi buffer stock & reorder point",
+      "Grafik interaktif simulasi skenario bisnis"
+    ],
+    "date": "2026-11-12",
+    "conversationId": "77eb1770-6e7c-4add-94ab-c6b1fbbd9e76",
+    "screenshot": "forecasting-hety.png"
+  },
+  {
+    "id": "poko-web",
+    "name": "Poko Web",
+    "originalTitle": "App Poko Web",
+    "tagline": "All-in-One SEO Audit, Keyword Tracker & Site Health Tool",
+    "description": "All-in-One SEO Audit, Keyword Tracker & Site Health Tool. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Marketing & Growth",
+    "demoUrl": "https://pokoweb.vercel.app",
+    "githubUrl": "https://github.com/ibobatsuga/pokoweb",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/pokoweb",
+    "techStack": [
+      "Next.js",
+      "Tailwind CSS",
+      "TypeScript",
+      "Vercel"
+    ],
+    "features": [
+      "Audit teknis on-page SEO & Core Web Vitals",
+      "Pelacak peringkat kata kunci di Google",
+      "Analisis backlink & perbandingan kompetitor",
+      "Rekomendasi optimasi konten instan"
+    ],
+    "date": "2026-11-12",
+    "conversationId": "49db1357-7a03-4259-9aee-7388a4d16f00",
+    "screenshot": "poko-web.png"
+  },
+  {
+    "id": "poko-mail",
+    "name": "Poko Mail",
+    "originalTitle": "App Poko Mail",
+    "tagline": "Platform Email Marketing Automation & Smart Newsletter",
+    "description": "Platform Email Marketing Automation & Smart Newsletter. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Marketing & Growth",
+    "demoUrl": "https://app.omnimail.id",
+    "githubUrl": "https://github.com/ibobatsuga/pokomail",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/pokomail",
+    "techStack": [
+      "React",
+      "Node.js",
+      "Tailwind CSS",
+      "SMTP Engine"
+    ],
+    "features": [
+      "Drag & drop builder template email modern",
+      "Otomasi drip campaign berbasis trigger",
+      "Tingkat deliverability tinggi & pembersih bounce list",
+      "Statistik open rate & click-through mendalam"
+    ],
+    "date": "2026-11-12",
+    "conversationId": "88fbd9d4-3d41-4c37-b735-4f68e4921943",
+    "screenshot": "poko-mail.png"
+  },
+  {
+    "id": "picme",
+    "name": "PicMe / EventPhoto AI",
+    "originalTitle": "App PicMe",
+    "tagline": "Marketplace Foto Event dengan AI Face Recognition & Selfie Search",
+    "description": "Marketplace Foto Event dengan AI Face Recognition & Selfie Search. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Creative & Media",
+    "demoUrl": "https://fotoyu.com",
+    "githubUrl": "https://github.com/ibobatsuga/eventphoto-ai",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/eventphoto-ai",
+    "techStack": [
+      "React",
+      "FastAPI",
+      "Face Recognition",
+      "Cloudflare R2"
+    ],
+    "features": [
+      "Peserta event cukup selfie untuk menemukan semua fotonya",
+      "Watermark otomatis & integrasi checkout pembelian",
+      "Portal fotografer untuk unggah massal ratusan foto",
+      "Pembagian komisi fotografer otomatis"
+    ],
+    "date": "2026-11-12",
+    "conversationId": "dc2a9458-b0d3-4990-98e0-1a5d6ff995eb",
+    "screenshot": "picme.png"
+  },
+  {
+    "id": "muvo",
+    "name": "Muvo / Dolan",
+    "originalTitle": "App  Muvo",
+    "tagline": "Marketplace Sewa Mobil & Rental Wisata Jogja",
+    "description": "Marketplace Sewa Mobil & Rental Wisata Jogja. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Productivity & Tools",
+    "demoUrl": "https://dolan-pi.vercel.app",
+    "githubUrl": "https://github.com/ibobatsuga/dolan",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/dolan",
+    "techStack": [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "TypeScript",
+      "Vercel"
+    ],
+    "features": [
+      "Pencarian armada mobil lepas kunci / dengan supir",
+      "Kalkulasi tarif per 12 jam, 24 jam & mingguan",
+      "Verifikasi identitas KTP & SIM online",
+      "Integrasi WhatsApp CS reservasi cepat"
+    ],
+    "date": "2026-11-11",
+    "conversationId": "794ba297-7e10-446e-badd-ba3d24ae22f6",
+    "screenshot": "muvo.png"
+  },
+  {
+    "id": "fluxy-mail",
+    "name": "Fluxy Mail",
+    "originalTitle": "App Fluxy Mail",
+    "tagline": "Enterprise Cloud Email Marketing & High-Volume Broadcast",
+    "description": "Enterprise Cloud Email Marketing & High-Volume Broadcast. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Marketing & Growth",
+    "demoUrl": "https://mailketing.co.id",
+    "githubUrl": "",
+    "scratchPath": "",
+    "techStack": [
+      "Vue.js",
+      "PHP / Laravel",
+      "Redis",
+      "MySQL"
+    ],
+    "features": [
+      "Kirim jutaan email broadcast dengan latency rendah",
+      "A/B Testing judul dan konten pesan email",
+      "Segmentasi database pelanggan canggih",
+      "Webhooks dan API integrasi lengkap"
+    ],
+    "date": "2026-11-11",
+    "conversationId": "e41a25c9-5e9c-4e99-988f-7bdf1a784c94",
+    "screenshot": "fluxy-mail.png"
+  },
+  {
+    "id": "legologic",
+    "name": "LegoLogic",
+    "originalTitle": "App LegoLogic",
+    "tagline": "Visual Logic Builder & No-Code Workflow Engine",
+    "description": "Visual Logic Builder & No-Code Workflow Engine. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Productivity & Tools",
+    "demoUrl": "https://legologic.vercel.app",
+    "githubUrl": "https://github.com/ibobatsuga/legologic",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/legologic",
+    "techStack": [
+      "React",
+      "React Flow",
+      "Tailwind CSS",
+      "Vercel"
+    ],
+    "features": [
+      "Perakitan logika komputasi modular ala lego balok",
+      "Visualisasi alur eksekusi data real-time",
+      "Ekspor fungsi ke JavaScript / Python",
+      "Library modul API, matematika & kondisi percabangan"
+    ],
+    "date": "2026-11-09",
+    "conversationId": "686fef96-19c1-493d-9c1e-eeeadfaf93c5",
+    "screenshot": "legologic.png"
+  },
+  {
+    "id": "belahketupat-erp",
+    "name": "BelahKetupat ERP",
+    "originalTitle": "App BelahKetupat ERP",
+    "tagline": "Enterprise Resource Planning Modular untuk Industri Manufaktur",
+    "description": "Enterprise Resource Planning Modular untuk Industri Manufaktur. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Enterprise & ERP",
+    "demoUrl": "",
+    "githubUrl": "https://github.com/dewanakl/belah-ketupat-erp",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/starline-erp",
+    "techStack": [
+      "Laravel",
+      "Vue.js",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "features": [
+      "Modul Bill of Materials (BOM) & Work Orders",
+      "Manajemen inventaris stok multi-gudang",
+      "Pencatatan pembelian (PO) & penjualan (SO)",
+      "Laporan laba rugi & neraca pabrik otomatis"
+    ],
+    "date": "2026-11-09",
+    "conversationId": "e2621d17-8716-4e81-bc75-5a22ff28aae8",
+    "screenshot": "belahketupat-erp.png"
+  },
+  {
+    "id": "autonoma360",
+    "name": "Autonoma360",
+    "originalTitle": "App Autonoma360",
+    "tagline": "Sistem ERP & Monitoring Produksi Bisnis Furniture",
+    "description": "Sistem ERP & Monitoring Produksi Bisnis Furniture. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Enterprise & ERP",
+    "demoUrl": "",
+    "githubUrl": "",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/erp-furniture-demo",
+    "techStack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Node.js"
+    ],
+    "features": [
+      "Pelacakan tahapan produksi mebel (kayu -> amplas -> finishing)",
+      "Kalkulasi HPP bahan baku kayu, cat & aksesoris",
+      "Jadwal pengiriman ekspedisi pesanan kustom",
+      "Manajemen pesanan ekspor & lokal"
+    ],
+    "date": "2026-11-09",
+    "conversationId": "2a14f7a5-ab02-4251-880a-ee5d90ade285",
+    "screenshot": "autonoma360.png"
+  },
+  {
+    "id": "daryapedia",
+    "name": "Daryapedia",
+    "originalTitle": "App Daryapedia",
+    "tagline": "Knowledge Base & Ensiklopedia Dokumentasi Internal",
+    "description": "Knowledge Base & Ensiklopedia Dokumentasi Internal. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Productivity & Tools",
+    "demoUrl": "",
+    "githubUrl": "",
+    "scratchPath": "",
+    "techStack": [
+      "Markdown Engine",
+      "Fulltext Search",
+      "Tailwind CSS"
+    ],
+    "features": [
+      "Dokumentasi SOP & basis pengetahuan terstruktur",
+      "Pencarian artikel super cepat dengan fuzzy match",
+      "Pengorganisasian modul berbasis hierarki kategori",
+      "Dukungan Markdown murni & preview instan"
+    ],
+    "date": "2026-11-08",
+    "conversationId": "6b4e35bf-f8ad-45fe-9592-1446b519df87",
+    "screenshot": "daryapedia.png"
+  },
+  {
+    "id": "proclima",
+    "name": "ProClima",
+    "originalTitle": "App ProClima",
+    "tagline": "Aplikasi Web Pemantau Iklim, Kualitas Udara & Lingkungan",
+    "description": "Aplikasi Web Pemantau Iklim, Kualitas Udara & Lingkungan. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "AI & Healthcare",
+    "demoUrl": "https://proclima.vercel.app",
+    "githubUrl": "https://github.com/ibobatsuga/proclima",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/proclima",
+    "techStack": [
+      "React",
+      "PWA",
+      "OpenWeather API",
+      "Tailwind CSS"
+    ],
+    "features": [
+      "Indeks Standar Pencemar Udara (ISPU / AQI) real-time",
+      "Peringatan dini cuaca ekstrem & kelembaban tanah",
+      "Peta sensor iklim interaktif",
+      "Rekomendasi aktivitas luar ruang berdasarkan udara"
+    ],
+    "date": "2026-11-08",
+    "conversationId": "0daa375a-7be7-4272-96b0-a028cbdd1a6f",
+    "screenshot": "proclima.png"
+  },
+  {
+    "id": "bukutamu",
+    "name": "BukuTamu / Smart Reception",
+    "originalTitle": "App BukuTamu",
+    "tagline": "Penerimaan Tamu Pernikahan Digital dengan QR Code & Layar Sapa",
+    "description": "Penerimaan Tamu Pernikahan Digital dengan QR Code & Layar Sapa. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Events & Wedding",
+    "demoUrl": "https://wedding-smart-reception.vercel.app",
+    "githubUrl": "https://github.com/ibobatsuga/wedding-smart-reception",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/wedding-smart-reception",
+    "techStack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "QR Scanner",
+      "Vercel"
+    ],
+    "features": [
+      "Check-in tamu dalam 1 detik scan QR di layar meja",
+      "Pemberian ucapan selamat langsung tayang di proyektor",
+      "Pencatatan angpao / amplop digital aman",
+      "Statistik kehadiran tamu aktual vs undangan"
+    ],
+    "date": "2026-11-08",
+    "conversationId": "ede33cab-f532-4665-b8be-f195eb6570e5",
+    "screenshot": "bukutamu.png"
+  },
+  {
+    "id": "hypelab",
+    "name": "HypeLab / HypeWatch",
+    "originalTitle": "App HypeLab",
+    "tagline": "Analisis Tren Konten Viral & Reverse Engineering Hook Sosmed",
+    "description": "Analisis Tren Konten Viral & Reverse Engineering Hook Sosmed. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Marketing & Growth",
+    "demoUrl": "https://spytrend.com",
+    "githubUrl": "",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/hypewatch",
+    "techStack": [
+      "Next.js",
+      "Python",
+      "TikTok API",
+      "Tailwind CSS"
+    ],
+    "features": [
+      "Deteksi reels & video TikTok yang sedang meledak",
+      "Pembedahan formula hook & durasi retensi audiens",
+      "Perpustakaan template ide konten harian",
+      "Statistik engagement rate akun kompetitor"
+    ],
+    "date": "2026-11-03",
+    "conversationId": "62945df8-51af-44c6-9ab0-ce5c7dcc9fdb",
+    "screenshot": "hypelab.png"
+  },
+  {
+    "id": "omnireach",
+    "name": "OmniReach",
+    "originalTitle": "App OmniReach",
+    "tagline": "CRM Dashboard Terintegrasi & Pengelola Relasi Pelanggan",
+    "description": "CRM Dashboard Terintegrasi & Pengelola Relasi Pelanggan. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Marketing & Growth",
+    "demoUrl": "https://fluxy.id/omni",
+    "githubUrl": "",
+    "scratchPath": "",
+    "techStack": [
+      "React",
+      "FastAPI",
+      "PostgreSQL",
+      "Tailwind CSS"
+    ],
+    "features": [
+      "Manajemen pipeline prospek & status deal penjualan",
+      "Catatan histori komunikasi & follow-up tim sales",
+      "Integrasi chat multi-channel terpusat",
+      "Grafik konversi penjualan & estimasi omzet"
+    ],
+    "date": "2026-11-03",
+    "conversationId": "bb0dac64-3105-4a1e-8703-885b9ffbfb5e",
+    "screenshot": "omnireach.png"
+  },
+  {
+    "id": "undangan",
+    "name": "Invitable / Undangan Digital",
+    "originalTitle": "App Undangan",
+    "tagline": "Platform Undangan Pernikahan Mewah dengan Animasi Interaktif",
+    "description": "Platform Undangan Pernikahan Mewah dengan Animasi Interaktif. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Events & Wedding",
+    "demoUrl": "https://invitable.id",
+    "githubUrl": "https://github.com/dewanakl/undangan.git",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/undangan",
+    "techStack": [
+      "HTML5",
+      "CSS3 Animation",
+      "Audio Engine",
+      "Bootstrap 5"
+    ],
+    "features": [
+      "Animasi buka amplop & transisi cover cinematic",
+      "Buku tamu & RSVP kehadiran interaktif",
+      "Galeri foto & video prewedding dengan musik latar",
+      "Integrasi navigasi Google Maps ke lokasi resepsi"
+    ],
+    "date": "2026-11-02",
+    "conversationId": "ffd34584-18f2-4932-aace-4d9c639d34de",
+    "screenshot": "undangan.png"
+  },
+  {
+    "id": "rhapsody",
+    "name": "Rhapsody",
+    "originalTitle": "App Rhapsody",
+    "tagline": "In-Browser Audio Workstation (DAW) & Multi-Track Studio",
+    "description": "In-Browser Audio Workstation (DAW) & Multi-Track Studio. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Audio & Creative",
+    "demoUrl": "https://rhapsody-three.vercel.app",
+    "githubUrl": "https://github.com/ibobatsuga/rhapsody",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/rhapsody",
+    "techStack": [
+      "Web Audio API",
+      "WaveSurfer.js",
+      "React",
+      "TypeScript",
+      "Vercel"
+    ],
+    "features": [
+      "Perekaman multi-track audio langsung di browser",
+      "Visualisasi waveform gelombang suara resolusi tinggi",
+      "Efek reverb, delay, EQ, dan pengatur gain volume",
+      "Ekspor master lagu ke WAV & MP3 tanpa server"
+    ],
+    "date": "2026-11-02",
+    "conversationId": "1faea537-9614-47ea-9a23-26a5ca526dba",
+    "screenshot": "rhapsody.png"
+  },
+  {
+    "id": "iris-pms",
+    "name": "Iris PMS",
+    "originalTitle": "App Iris PMS",
+    "tagline": "Property Management System Modern untuk Hotel, Resort & Villa",
+    "description": "Property Management System Modern untuk Hotel, Resort & Villa. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Enterprise & ERP",
+    "demoUrl": "https://iris-o5dd9rm3q-fluxyid.vercel.app",
+    "githubUrl": "https://github.com/ibobatsuga/iris.pms",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/iris-pms",
+    "techStack": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vercel"
+    ],
+    "features": [
+      "Papan reservasi kamar interaktif (Timeline Gantt view)",
+      "Manajemen check-in, check-out & folio tagihan tamu",
+      "Housekeeping status kamar (Bersih, Kotor, Ditinggali)",
+      "Laporan okupansi & Pendapatan Harian Rata-Rata (ADR)"
+    ],
+    "date": "2026-11-01",
+    "conversationId": "6a46568f-5d57-4d28-ba15-27bf33984ab2",
+    "screenshot": "iris-pms.png"
+  },
+  {
+    "id": "nalarasaos",
+    "name": "NalarasaOS",
+    "originalTitle": "App NalarasaOS",
+    "tagline": "Sistem Operasi Bisnis Kuliner & Layanan Terintegrasi",
+    "description": "Sistem Operasi Bisnis Kuliner & Layanan Terintegrasi. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Enterprise & ERP",
+    "demoUrl": "https://nalarasa-pos.vercel.app",
+    "githubUrl": "https://github.com/ibobatsuga/nalarasa-os",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/nalarasa-os",
+    "techStack": [
+      "TypeScript",
+      "Microservices",
+      "Docker",
+      "Node.js"
+    ],
+    "features": [
+      "Ekosistem POS kasir, inventaris dapur & finance",
+      "Monitoring ketersediaan bahan baku kuliner harian",
+      "Dashboard metrik laba per menu makanan",
+      "Integrasi QRIS pembayaran instan"
+    ],
+    "date": "2026-10-27",
+    "conversationId": "c22b1ee5-fad5-481f-88cb-07358173d6be",
+    "screenshot": "nalarasaos.png"
+  },
+  {
+    "id": "creatorhub",
+    "name": "CreatorHub",
+    "originalTitle": "App CreatorHub",
+    "tagline": "Platform Kolaborasi Kreator, Endorsement & Campaign Matching",
+    "description": "Platform Kolaborasi Kreator, Endorsement & Campaign Matching. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Marketing & Growth",
+    "demoUrl": "https://creatorhub-three-brown.vercel.app",
+    "githubUrl": "https://github.com/ibobatsuga/creatorhub.git",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/creatorhub",
+    "techStack": [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "TypeScript",
+      "Vercel"
+    ],
+    "features": [
+      "Katalog profil influencer terkurasi beserta rate card",
+      "Manajemen pengajuan kampanye endorsement oleh brand",
+      "Pelacakan bukti tayang konten & analitik engagement",
+      "Sistem escrow pencairan pembayaran aman"
+    ],
+    "date": "2026-10-26",
+    "conversationId": "d9098a2c-5b07-45a2-9e55-c9ccd4f3015a",
+    "screenshot": "creatorhub.png"
+  },
+  {
+    "id": "hospitalingo",
+    "name": "Hospitalingo",
+    "originalTitle": "App Hospitalingo",
+    "tagline": "Asisten Penerjemah & Komunikasi Medis Pasien Multibahasa",
+    "description": "Asisten Penerjemah & Komunikasi Medis Pasien Multibahasa. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "AI & Healthcare",
+    "demoUrl": "https://hospitalingo.horisontimoho.id",
+    "githubUrl": "https://github.com/ibobatsuga/hospitalingo.git",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/hospitalingo",
+    "techStack": [
+      "Next.js",
+      "Gemini AI API",
+      "Web Speech API",
+      "Tailwind CSS"
+    ],
+    "features": [
+      "Penerjemahan suara medis real-time dokter & pasien",
+      "Kamus istilah klinis & gejala penyakit akurat",
+      "Dukungan multi-bahasa asing & bahasa daerah",
+      "Rekam ringkasan anamnesis terstruktur"
+    ],
+    "date": "2026-10-23",
+    "conversationId": "c4cb7844-632b-4903-a3a1-b423f364a87a",
+    "screenshot": "hospitalingo.png"
+  },
+  {
+    "id": "phantomlab",
+    "name": "PhantomLab / PhantomWave",
+    "originalTitle": "App PhantomLab",
+    "tagline": "Audio Stealth Synthesizer & Waveform Processing Lab",
+    "description": "Audio Stealth Synthesizer & Waveform Processing Lab. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Audio & Creative",
+    "demoUrl": "https://phantom-wave.vercel.app",
+    "githubUrl": "https://github.com/ibobatsuga/phantomwave.git",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/phantom-wave",
+    "techStack": [
+      "Web Audio API",
+      "Canvas 2D",
+      "Tailwind CSS",
+      "Vercel"
+    ],
+    "features": [
+      "Sintesis frekuensi audio & steganografi suara",
+      "Visualisasi spektrum audio FFT presisi tinggi",
+      "Filter noise adaptif & isolasi instrumen",
+      "Manipulasi parameter phase, timbre, dan pitch"
+    ],
+    "date": "2026-10-22",
+    "conversationId": "ffc06a9e-170a-475d-a93d-1c422153c022",
+    "screenshot": "phantomlab.png"
+  },
+  {
+    "id": "phantomlab",
+    "name": "SoundLab / CiptaSuara",
+    "originalTitle": "App-DEV PhantomLab",
+    "tagline": "AI Voice Generation & Studio Rekaman Suara Canggih",
+    "description": "AI Voice Generation & Studio Rekaman Suara Canggih. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Audio & Creative",
+    "demoUrl": "https://soundlab-ecru.vercel.app",
+    "githubUrl": "https://github.com/ibobatsuga/soundlab.git",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/xxlchicken-soundlab",
+    "techStack": [
+      "Next.js",
+      "FastAPI",
+      "PyTorch",
+      "Tailwind CSS",
+      "Vercel"
+    ],
+    "features": [
+      "Kloning karakter suara manusia dari cuplikan audio",
+      "Text-to-Speech ekspresif dengan intonasi natural",
+      "Audio mastering & noise reduction satu klik",
+      "Player preview audio dengan kontrol kecepatan & pitch"
+    ],
+    "date": "2026-10-20",
+    "conversationId": "eac2edb3-76a2-4cf5-b24d-032741f44ee4",
+    "screenshot": "phantomlab.png"
+  },
+  {
+    "id": "undanganku-id",
+    "name": "Undanganku.id",
+    "originalTitle": "App-DEV undanganku.id",
+    "tagline": "SaaS Platform Pembuat Undangan Pernikahan Online",
+    "description": "SaaS Platform Pembuat Undangan Pernikahan Online. Dikembangkan dan dirancang secara interaktif di lingkungan Antigravity AI.",
+    "category": "Events & Wedding",
+    "demoUrl": "https://undanganku.id",
+    "githubUrl": "https://github.com/dewanakl/undangan.git",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/undangan",
+    "techStack": [
+      "PHP",
+      "Bootstrap 5",
+      "jQuery",
+      "MySQL"
+    ],
+    "features": [
+      "Pilihan lusinan tema desain modern & elegan",
+      "Kirim undangan personal dengan nama tamu berbeda",
+      "Fitur kirim amplop digital & kado fisik",
+      "Countdown timer hitung mundur hari pernikahan"
+    ],
+    "date": "2026-10-20",
+    "conversationId": "756713c8-0d13-4604-892b-e9edfd90c317",
+    "screenshot": "undanganku-id.png"
+  },
+  {
+    "id": "dashdish",
+    "name": "DashDish",
+    "originalTitle": "DashDish - Pesan Antar Kedai Mandiri",
+    "tagline": "Aplikasi Web Progresif (PWA) Pesan Antar Kedai Tanpa Potongan Komisi",
+    "description": "Platform pemesanan dan pengantaran makanan minuman langsung dari kedai dengan kurir mandiri internal tanpa biaya komisi aplikasi pihak ketiga. Dilengkapi portal Pelanggan, Dapur & Kasir (Kanban), serta Aplikasi Kurir.",
+    "category": "Enterprise & ERP",
+    "demoUrl": "https://dashdish.vercel.app",
+    "githubUrl": "",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/dashdish",
+    "techStack": [
+      "PWA",
+      "JavaScript ES6+",
+      "HTML5 Semantik",
+      "CSS3 Grid/Flexbox",
+      "LocalStorage"
+    ],
+    "features": [
+      "3 Sudut Pandang Peran (Pelanggan, Dapur/Kasir, Kurir Kedai)",
+      "Kalkulator ongkir berbasis kilometer dengan fitur tawar bersahabat",
+      "Checkout direct WhatsApp & pilihan pembayaran COD / Transfer",
+      "Pelacakan progres pesanan 4 tahap & cetak struk thermal"
+    ],
+    "date": "2026-11-21",
+    "conversationId": "",
+    "screenshot": "dashdish.png"
+  }
+]

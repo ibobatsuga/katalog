@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katalog Aplikasi Antigravity — Portofolio & Direktori App</title>
+  <meta name="description" content="Katalog interaktif lengkap 35+ aplikasi yang dibuat dan dikembangkan di Antigravity AI">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20width=%22100%22%20height=%22100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+</head>
+<body>
+  <!-- Ambient background glow -->
+  <div class="ambient-bg">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="#" class="brand">
+        <div class="brand-icon">✨</div>
+        <div class="brand-text">
+          <h1>Antigravity Apps</h1>
+          <span>Direktori Portofolio & Ekosistem</span>
+        </div>
+      </a>
+
+      <div class="header-actions">
+        <button id="themeToggleBtn" class="btn-icon" title="Ganti Mode Tema (Dark/Light)">
+          <span id="themeIcon">☀️</span>
+        </button>
+        <button id="exportJsonBtn" class="btn-icon" title="Ekspor Data JSON">
+          <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-pill">
+        <span>🚀</span>
+        <span>Koleksi Eksklusif Antigravity AI</span>
+      </div>
+      <h2 class="hero-title">
+        Semua Aplikasi di <span class="gradient-text">Antigravity</span>
+      </h2>
+      <p class="hero-desc">
+        Katalog lengkap dan showcase seluruh proyek aplikasi web, sistem enterprise, tools kecerdasan buatan, dan prototipe yang diawali dengan chat <code>App</code> di Antigravity.
+      </p>
+
+      <!-- Stats Grid -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon purple">📱</div>
+          <div>
+            <div id="totalAppsCount" class="stat-number">35</div>
+            <div class="stat-label">Total Aplikasi</div>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon green">🌐</div>
+          <div>
+            <div id="liveAppsCount" class="stat-number">20+</div>
+            <div class="stat-label">Live Deployment</div>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon blue">📦</div>
+          <div>
+            <div id="githubReposCount" class="stat-number">18+</div>
+            <div class="stat-label">Repositori GitHub</div>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon amber">🏷️</div>
+          <div>
+            <div id="categoriesCount" class="stat-number">8</div>
+            <div class="stat-label">Kategori Industri</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Controls Toolbar -->
+    <section class="controls-toolbar">
+      <!-- Search Row -->
+      <div class="search-row">
+        <div class="search-box">
+          <svg class="search-icon" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          <input type="text" id="searchInput" class="search-input" placeholder="Cari nama aplikasi, fitur, teknologi (misal: Next.js, Vercel, kas, CRM, audio)...">
+          <button id="clearSearchBtn" class="clear-search" title="Hapus pencarian">✕</button>
+        </div>
+
+        <div class="filter-actions">
+          <select id="sortSelect" class="select-custom">
+            <option value="date-desc">📅 Terbaru</option>
+            <option value="name-asc">🔤 Nama (A - Z)</option>
+            <option value="name-desc">🔤 Nama (Z - A)</option>
+            <option value="category">🏷️ Kategori</option>
+          </select>
+
+          <div class="view-toggle">
+            <button id="gridViewBtn" class="view-btn active" title="Tampilan Grid Card">
+              <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"/></svg>
+              Grid
+            </button>
+            <button id="listViewBtn" class="view-btn" title="Tampilan Tabel / List">
+              <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+              Tabel
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Category Filter Pills -->
+      <div id="categoryPills" class="category-pills">
+        <!-- Injected via JavaScript -->
+      </div>
+
+      <!-- Secondary Status Filters -->
+      <div class="status-filters">
+        <span class="status-label">Status:</span>
+        <button class="status-chip active" data-status="all">Semua</button>
+        <button class="status-chip" data-status="live">🟢 Live Demo</button>
+        <button class="status-chip" data-status="github">📦 Ada GitHub</button>
+        <button class="status-chip" data-status="scratch">📁 Ada Source Scratch</button>
+      </div>
+    </section>
+
+    <!-- Results Header -->
+    <div class="results-info">
+      <div>Menampilkan <strong id="visibleCount" style="color:var(--text-primary);">0</strong> aplikasi</div>
+      <div id="activeFilterBadge" style="font-weight: 500;"></div>
+    </div>
+
+    <!-- Grid View -->
+    <div id="appsGrid" class="apps-grid">
+      <!-- Injected via JavaScript -->
+    </div>
+
+    <!-- Empty State -->
+    <div id="emptyState" class="empty-state">
+      <div class="empty-icon">🔍</div>
+      <h3 style="margin-bottom: 0.5rem; font-size: 1.25rem;">Tidak ada aplikasi yang cocok</h3>
+      <p style="color: var(--text-secondary);">Coba ubah kata kunci pencarian atau reset filter kategori.</p>
+    </div>
+
+    <!-- Table List View -->
+    <div id="tableContainer" class="table-container">
+      <table class="apps-table">
+        <thead>
+          <tr>
+            <th>Pratinjau</th>
+            <th>Aplikasi</th>
+            <th>Kategori</th>
+            <th>Tech Stack</th>
+            <th>Status</th>
+            <th>Aksi</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          <!-- Injected via JavaScript -->
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <!-- Detail / Lightbox Modal -->
+  <div id="appModal" class="modal-backdrop">
+    <div class="modal-content">
+      <button id="modalCloseBtn" class="modal-close-btn" title="Tutup Modal">✕</button>
+      
+      <div class="modal-hero-img-wrap">
+        <img id="modalHeroImg" class="modal-hero-img" src="" alt="Pratinjau Aplikasi">
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-title-row">
+          <div>
+            <span id="modalCategoryTag" class="category-tag cat-tools">Tools</span>
+            <h2 id="modalAppName" class="modal-title" style="margin-top: 8px;">Nama App</h2>
+          </div>
+          <div id="modalStatusBadge" class="status-badge live">
+            <span class="pulsing-dot"></span>
+            <span>Live Demo</span>
+          </div>
+        </div>
+
+        <p id="modalTagline" class="modal-tagline">Tagline aplikasi.</p>
+
+        <h4 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted);">Fitur Utama & Keunggulan</h4>
+        <ul id="modalFeaturesList" class="features-list">
+          <!-- Features -->
+        </ul>
+
+        <h4 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted);">Teknologi</h4>
+        <div id="modalTechBadges" class="tech-badges">
+          <!-- Badges -->
+        </div>
+
+        <!-- Links Container -->
+        <div class="modal-links-box">
+          <div id="modalDemoRow" class="link-row">
+            <span class="link-title">🌐 Live Demo:</span>
+            <a id="modalDemoLink" class="link-val" href="#" target="_blank" rel="noopener">https://...</a>
+            <button class="copy-btn" onclick="copyText('modalDemoLink')">Salin</button>
+          </div>
+
+          <div id="modalGithubRow" class="link-row">
+            <span class="link-title">📦 GitHub:</span>
+            <a id="modalGithubLink" class="link-val" href="#" target="_blank" rel="noopener">https://github.com/...</a>
+            <button class="copy-btn" onclick="copyText('modalGithubLink')">Salin</button>
+          </div>
+
+          <div id="modalScratchRow" class="link-row">
+            <span class="link-title">📁 Path Lokal:</span>
+            <span id="modalScratchText" class="link-val" style="color: var(--text-secondary);">/Users/...</span>
+            <button class="copy-btn" onclick="copyText('modalScratchText')">Salin</button>
+          </div>
+
+          <div class="link-row" style="border-top: 1px solid var(--border-color); padding-top: 8px; font-size: 0.78rem; color: var(--text-muted);">
+            <span>Antigravity Chat ID: <code id="modalChatId" style="font-family: 'JetBrains Mono', monospace;">-</code></span>
+            <span id="modalAppDate">2026-11-21</span>
+          </div>
+        </div>
+
+        <div style="margin-top: 1.5rem; display: flex; gap: 10px;">
+          <a id="modalPrimaryBtn" href="#" target="_blank" class="btn-primary" style="padding: 12px 20px;">
+            🚀 Kunjungi Aplikasi Sekarang
+          </a>
+          <button class="btn-secondary" onclick="closeModal()">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast" class="toast-msg">Tautan berhasil disalin!</div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p style="margin-bottom: 0.5rem; font-weight: 600; color: var(--text-primary);">
+        ✨ Antigravity App Directory & Portfolio
+      </p>
+      <p>Dibangun secara otomatis untuk mengeksplorasi ekosistem kreasi aplikasi AI Antigravity.</p>
+    </div>
+  </footer>
+
+  <!-- Include App Data and App Logic -->
+  <script src="apps.js"></script>
+  <script>
+    // State management
+    let currentCategory = 'all';
+    let currentStatus = 'all';
+    let searchQuery = '';
+    let currentSort = 'date-desc';
+    let currentView = 'grid';
+
+    // Category style mapping
+    const CATEGORY_MAP = {
+      'Finance & Kas': { class: 'cat-finance', icon: '💰' },
+      'Productivity & Tools': { class: 'cat-tools', icon: '⚡' },
+      'AI & Healthcare': { class: 'cat-ai', icon: '🤖' },
+      'Marketing & Growth': { class: 'cat-marketing', icon: '📈' },
+      'Events & Wedding': { class: 'cat-events', icon: '💍' },
+      'Enterprise & ERP': { class: 'cat-erp', icon: '🏭' },
+      'Audio & Creative': { class: 'cat-audio', icon: '🎵' },
+      'Education': { class: 'cat-education', icon: '🎓' }
+    };
+
+    function getCategoryInfo(cat) {
+      return CATEGORY_MAP[cat] || { class: 'cat-tools', icon: '✨' };
+    }
+
+    // Initialize UI
+    document.addEventListener('DOMContentLoaded', () => {
+      initTheme();
+      initStats();
+      renderCategoryPills();
+      bindEvents();
+      filterAndRender();
+    });
+
+    // Theme Toggle
+    function initTheme() {
+      const savedTheme = localStorage.getItem('agy_catalog_theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', savedTheme);
+      document.getElementById('themeIcon').textContent = savedTheme === 'dark' ? '☀️' : '🌙';
+    }
+
+    document.getElementById('themeToggleBtn').addEventListener('click', () => {
+      const cur = document.documentElement.getAttribute('data-theme');
+      const next = cur === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('agy_catalog_theme', next);
+      document.getElementById('themeIcon').textContent = next === 'dark' ? '☀️' : '🌙';
+    });
+
+    // Stats
+    function initStats() {
+      const total = APPS_DATA.length;
+      const live = APPS_DATA.filter(a => a.demoUrl).length;
+      const gh = APPS_DATA.filter(a => a.githubUrl).length;
+      const cats = new Set(APPS_DATA.map(a => a.category)).size;
+
+      document.getElementById('totalAppsCount').textContent = total;
+      document.getElementById('liveAppsCount').textContent = live;
+      document.getElementById('githubReposCount').textContent = gh;
+      document.getElementById('categoriesCount').textContent = cats;
+    }
+
+    // Category Pills
+    function renderCategoryPills() {
+      const container = document.getElementById('categoryPills');
+      const catCounts = {};
+      APPS_DATA.forEach(a => {
+        catCounts[a.category] = (catCounts[a.category] || 0) + 1;
+      });
+
+      let html = `
+        <button class="pill-btn active" data-category="all">
+          <span>✨</span>
+          <span>Semua</span>
+          <span class="pill-count">${APPS_DATA.length}</span>
+        </button>
+      `;
+
+      Object.keys(catCounts).sort().forEach(cat => {
+        const info = getCategoryInfo(cat);
+        html += `
+          <button class="pill-btn" data-category="${cat}">
+            <span>${info.icon}</span>
+            <span>${cat}</span>
+            <span class="pill-count">${catCounts[cat]}</span>
+          </button>
+        `;
+      });
+
+      container.innerHTML = html;
+
+      // Click event
+      container.querySelectorAll('.pill-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          container.querySelectorAll('.pill-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          currentCategory = btn.getAttribute('data-category');
+          filterAndRender();
+        });
+      });
+    }
+
+    // Event Bindings
+    function bindEvents() {
+      // Search
+      const searchInput = document.getElementById('searchInput');
+      const clearBtn = document.getElementById('clearSearchBtn');
+
+      searchInput.addEventListener('input', (e) => {
+        searchQuery = e.target.value.trim().toLowerCase();
+        clearBtn.style.display = searchQuery ? 'block' : 'none';
+        filterAndRender();
+      });
+
+      clearBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        searchQuery = '';
+        clearBtn.style.display = 'none';
+        filterAndRender();
+        searchInput.focus();
+      });
+
+      // Sort
+      document.getElementById('sortSelect').addEventListener('change', (e) => {
+        currentSort = e.target.value;
+        filterAndRender();
+      });
+
+      // Status filters
+      document.querySelectorAll('.status-chip').forEach(chip => {
+        chip.addEventListener('click', () => {
+          document.querySelectorAll('.status-chip').forEach(c => c.classList.remove('active'));
+          chip.classList.add('active');
+          currentStatus = chip.getAttribute('data-status');
+          filterAndRender();
+        });
+      });
+
+      // View Toggle
+      document.getElementById('gridViewBtn').addEventListener('click', () => {
+        currentView = 'grid';
+        document.getElementById('gridViewBtn').classList.add('active');
+        document.getElementById('listViewBtn').classList.remove('active');
+        document.getElementById('appsGrid').style.display = 'grid';
+        document.getElementById('tableContainer').style.display = 'none';
+      });
+
+      document.getElementById('listViewBtn').addEventListener('click', () => {
+        currentView = 'list';
+        document.getElementById('listViewBtn').classList.add('active');
+        document.getElementById('gridViewBtn').classList.remove('active');
+        document.getElementById('appsGrid').style.display = 'none';
+        document.getElementById('tableContainer').style.display = 'block';
+      });
+
+      // Modal close
+      document.getElementById('modalCloseBtn').addEventListener('click', closeModal);
+      document.getElementById('appModal').addEventListener('click', (e) => {
+        if (e.target.id === 'appModal') closeModal();
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeModal();
+      });
+
+      // Export JSON
+      document.getElementById('exportJsonBtn').addEventListener('click', () => {
+        const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(APPS_DATA, null, 2));
+        const dlAnchor = document.createElement('a');
+        dlAnchor.setAttribute("href", dataStr);
+        dlAnchor.setAttribute("download", "antigravity-apps-catalog.json");
+        dlAnchor.click();
+        showToast("File data JSON berhasil diunduh!");
+      });
+    }
+
+    // Filter, Sort and Render
+    function filterAndRender() {
+      let filtered = APPS_DATA.filter(app => {
+        // Category filter
+        if (currentCategory !== 'all' && app.category !== currentCategory) {
+          return false;
+        }
+
+        // Status filter
+        if (currentStatus === 'live' && !app.demoUrl) return false;
+        if (currentStatus === 'github' && !app.githubUrl) return false;
+        if (currentStatus === 'scratch' && !app.scratchPath) return false;
+
+        // Search filter
+        if (searchQuery) {
+          const matchName = app.name.toLowerCase().includes(searchQuery);
+          const matchTag = (app.tagline || '').toLowerCase().includes(searchQuery);
+          const matchCat = (app.category || '').toLowerCase().includes(searchQuery);
+          const matchTech = (app.techStack || []).some(t => t.toLowerCase().includes(searchQuery));
+          const matchFeatures = (app.features || []).some(f => f.toLowerCase().includes(searchQuery));
+          if (!matchName && !matchTag && !matchCat && !matchTech && !matchFeatures) {
+            return false;
+          }
+        }
+
+        return true;
+      });
+
+      // Sort
+      filtered.sort((a, b) => {
+        if (currentSort === 'date-desc') {
+          return (b.date || '').localeCompare(a.date || '');
+        } else if (currentSort === 'name-asc') {
+          return a.name.localeCompare(b.name);
+        } else if (currentSort === 'name-desc') {
+          return b.name.localeCompare(a.name);
+        } else if (currentSort === 'category') {
+          return a.category.localeCompare(b.category);
+        }
+        return 0;
+      });
+
+      // Update counters
+      document.getElementById('visibleCount').textContent = filtered.length;
+      document.getElementById('emptyState').style.display = filtered.length === 0 ? 'block' : 'none';
+
+      renderGridView(filtered);
+      renderTableView(filtered);
+    }
+
+    // Render Grid Cards
+    function renderGridView(apps) {
+      const grid = document.getElementById('appsGrid');
+      if (apps.length === 0) {
+        grid.innerHTML = '';
+        return;
+      }
+
+      grid.innerHTML = apps.map(app => {
+        const catInfo = getCategoryInfo(app.category);
+        const screenshotSrc = app.screenshot ? `public/screenshots/${app.screenshot}` : '';
+        
+        let statusBadgeHtml = '';
+        if (app.demoUrl) {
+          statusBadgeHtml = `
+            <div class="status-badge live">
+              <span class="pulsing-dot"></span>
+              <span>Live Demo</span>
+            </div>
+          `;
+        } else if (app.githubUrl) {
+          statusBadgeHtml = `
+            <div class="status-badge github">
+              <span>📦 Repo</span>
+            </div>
+          `;
+        } else {
+          statusBadgeHtml = `
+            <div class="status-badge local">
+              <span>📁 Local</span>
+            </div>
+          `;
+        }
+
+        const techTagsHtml = (app.techStack || []).slice(0, 4).map(t => 
+          `<span class="tech-tag">${t}</span>`
+        ).join('');
+
+        const demoButtonHtml = app.demoUrl ? `
+          <a href="${app.demoUrl}" target="_blank" rel="noopener" class="btn-primary" title="Buka Aplikasi Langsung">
+            🚀 Buka
+          </a>
+        ` : '';
+
+        const githubButtonHtml = app.githubUrl ? `
+          <a href="${app.githubUrl}" target="_blank" rel="noopener" class="btn-secondary" title="Buka Repositori GitHub">
+            <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            Repo
+          </a>
+        ` : '';
+
+        return `
+          <div class="app-card" data-id="${app.id}">
+            <div class="card-media" onclick="openModal('${app.id}')">
+              <img src="${screenshotSrc}" alt="${app.name}" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22400%22 viewBox=%220 0 600 400%22><rect fill=%22%231e293b%22 width=%22600%22 height=%22400%22/><text fill=%22%2394a3b8%22 font-family=%22sans-serif%22 font-size=%2226%22 font-weight=%22bold%22 text-anchor=%22middle%22 x=%22300%22 y=%22200%22>${app.name}</text></svg>'">
+              <div class="media-overlay">
+                <div class="preview-zoom-btn">
+                  <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+                  Perbesar Pratinjau
+                </div>
+              </div>
+              <div class="media-top-tags">
+                <span class="category-tag ${catInfo.class}">${catInfo.icon} ${app.category}</span>
+                ${statusBadgeHtml}
+              </div>
+            </div>
+
+            <div class="card-content">
+              <div class="card-header-meta">
+                <h3 class="app-name">${app.name}</h3>
+                <span class="app-date">${app.date || ''}</span>
+              </div>
+              <p class="app-tagline" title="${app.tagline}">${app.tagline || ''}</p>
+              
+              <div class="tech-badges">
+                ${techTagsHtml}
+              </div>
+
+              <div class="card-actions">
+                ${demoButtonHtml}
+                ${githubButtonHtml}
+                <button class="btn-detail" onclick="openModal('${app.id}')" title="Lihat detail lengkap">
+                  Detail
+                </button>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // Render Table List
+    function renderTableView(apps) {
+      const tbody = document.getElementById('tableBody');
+      if (apps.length === 0) {
+        tbody.innerHTML = '';
+        return;
+      }
+
+      tbody.innerHTML = apps.map(app => {
+        const catInfo = getCategoryInfo(app.category);
+        const screenshotSrc = app.screenshot ? `public/screenshots/${app.screenshot}` : '';
+        const techStr = (app.techStack || []).slice(0, 3).join(', ');
+
+        let statusText = app.demoUrl ? '<span style="color:#10b981; font-weight:600;">🟢 Live</span>' :
+                         (app.githubUrl ? '<span style="color:#3b82f6; font-weight:600;">📦 GitHub</span>' : '<span style="color:#94a3b8;">📁 Local</span>');
+
+        return `
+          <tr>
+            <td>
+              <img class="table-thumb" src="${screenshotSrc}" alt="${app.name}" onclick="openModal('${app.id}')" loading="lazy">
+            </td>
+            <td>
+              <strong style="color:var(--text-primary); cursor:pointer;" onclick="openModal('${app.id}')">${app.name}</strong>
+              <div style="font-size:0.8rem; color:var(--text-muted); margin-top:2px;">${app.tagline || ''}</div>
+            </td>
+            <td>
+              <span class="category-tag ${catInfo.class}">${catInfo.icon} ${app.category}</span>
+            </td>
+            <td style="font-size:0.82rem; color:var(--text-secondary);">${techStr}</td>
+            <td>${statusText}</td>
+            <td>
+              <div style="display:flex; gap:6px;">
+                ${app.demoUrl ? `<a href="${app.demoUrl}" target="_blank" class="btn-primary" style="padding:6px 10px; font-size:0.75rem;">Buka</a>` : ''}
+                <button class="btn-secondary" style="padding:6px 10px; font-size:0.75rem;" onclick="openModal('${app.id}')">Info</button>
+              </div>
+            </td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    // Open Modal
+    function openModal(appId) {
+      const app = APPS_DATA.find(a => a.id === appId);
+      if (!app) return;
+
+      const catInfo = getCategoryInfo(app.category);
+      const modal = document.getElementById('appModal');
+
+      document.getElementById('modalAppName').textContent = app.name;
+      document.getElementById('modalTagline').textContent = app.description || app.tagline;
+      document.getElementById('modalCategoryTag').className = `category-tag ${catInfo.class}`;
+      document.getElementById('modalCategoryTag').innerHTML = `${catInfo.icon} ${app.category}`;
+      document.getElementById('modalAppDate').textContent = app.date || '';
+      document.getElementById('modalChatId').textContent = app.conversationId || '-';
+
+      const heroImg = document.getElementById('modalHeroImg');
+      heroImg.src = app.screenshot ? `public/screenshots/${app.screenshot}` : '';
+      heroImg.alt = app.name;
+
+      // Status
+      const statusBadge = document.getElementById('modalStatusBadge');
+      if (app.demoUrl) {
+        statusBadge.className = 'status-badge live';
+        statusBadge.innerHTML = '<span class="pulsing-dot"></span><span>Live Deployment</span>';
+      } else if (app.githubUrl) {
+        statusBadge.className = 'status-badge github';
+        statusBadge.innerHTML = '<span>📦 Repositori GitHub</span>';
+      } else {
+        statusBadge.className = 'status-badge local';
+        statusBadge.innerHTML = '<span>📁 Prototipe Lokal</span>';
+      }
+
+      // Features
+      const featList = document.getElementById('modalFeaturesList');
+      featList.innerHTML = (app.features || []).map(f => `
+        <li>
+          <span class="check-icon">✓</span>
+          <span>${f}</span>
+        </li>
+      `).join('');
+
+      // Tech Stack
+      const techBox = document.getElementById('modalTechBadges');
+      techBox.innerHTML = (app.techStack || []).map(t => `<span class="tech-tag">${t}</span>`).join('');
+
+      // Links
+      const demoRow = document.getElementById('modalDemoRow');
+      const demoLink = document.getElementById('modalDemoLink');
+      if (app.demoUrl) {
+        demoRow.style.display = 'flex';
+        demoLink.href = app.demoUrl;
+        demoLink.textContent = app.demoUrl;
+      } else {
+        demoRow.style.display = 'none';
+      }
+
+      const ghRow = document.getElementById('modalGithubRow');
+      const ghLink = document.getElementById('modalGithubLink');
+      if (app.githubUrl) {
+        ghRow.style.display = 'flex';
+        ghLink.href = app.githubUrl;
+        ghLink.textContent = app.githubUrl;
+      } else {
+        ghRow.style.display = 'none';
+      }
+
+      const scRow = document.getElementById('modalScratchRow');
+      const scText = document.getElementById('modalScratchText');
+      if (app.scratchPath) {
+        scRow.style.display = 'flex';
+        scText.textContent = app.scratchPath;
+      } else {
+        scRow.style.display = 'none';
+      }
+
+      const primaryBtn = document.getElementById('modalPrimaryBtn');
+      if (app.demoUrl) {
+        primaryBtn.style.display = 'inline-flex';
+        primaryBtn.href = app.demoUrl;
+        primaryBtn.innerHTML = '🚀 Kunjungi Aplikasi Live';
+      } else if (app.githubUrl) {
+        primaryBtn.style.display = 'inline-flex';
+        primaryBtn.href = app.githubUrl;
+        primaryBtn.innerHTML = '📦 Buka Repositori GitHub';
+      } else {
+        primaryBtn.style.display = 'none';
+      }
+
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      document.getElementById('appModal').classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    // Copy to clipboard helper
+    function copyText(elemId) {
+      const el = document.getElementById(elemId);
+      const text = el.textContent || el.innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        showToast("Teks berhasil disalin ke clipboard!");
+      });
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      toast.textContent = msg;
+      toast.classList.add('show');
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, 3000);
+    }
+  </script>
+</body>
+</html>
