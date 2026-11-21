@@ -271,7 +271,7 @@ const APPS_DATA = [
     "tagline": "Omnichannel AI Chatbot & Customer Support WhatsApp",
     "description": "Omnichannel AI Chatbot & Customer Support WhatsApp. Dikembangkan dan dirancang secara interaktif di lingkungan FLUXY.ID.",
     "category": "Marketing & Growth",
-    "demoUrl": "https://ping-clone-poc.vercel.app",
+    "demoUrl": "https://pokobot.fluxy.id",
     "githubUrl": "https://github.com/ibobatsuga/pokobot",
     "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/pokobot-waha-backend",
     "techStack": [
@@ -324,7 +324,7 @@ const APPS_DATA = [
     "tagline": "All-in-One SEO Audit, Keyword Tracker & Site Health Tool",
     "description": "All-in-One SEO Audit, Keyword Tracker & Site Health Tool. Dikembangkan dan dirancang secara interaktif di lingkungan FLUXY.ID.",
     "category": "Marketing & Growth",
-    "demoUrl": "https://pokoweb.vercel.app",
+    "demoUrl": "https://pokoweb.fluxy.id",
     "githubUrl": "https://github.com/ibobatsuga/pokoweb",
     "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/pokoweb",
     "techStack": [
@@ -350,7 +350,7 @@ const APPS_DATA = [
     "tagline": "Platform Email Marketing Automation & Smart Newsletter",
     "description": "Platform Email Marketing Automation & Smart Newsletter. Dikembangkan dan dirancang secara interaktif di lingkungan FLUXY.ID.",
     "category": "Marketing & Growth",
-    "demoUrl": "https://app.omnimail.id",
+    "demoUrl": "https://pokomail.fluxy.id",
     "githubUrl": "https://github.com/ibobatsuga/pokomail",
     "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/pokomail",
     "techStack": [
