@@ -490,7 +490,7 @@
 
       grid.innerHTML = apps.map(app => {
         const catInfo = getCategoryInfo(app.category);
-        const screenshotSrc = app.screenshot ? `public/screenshots/${app.screenshot}` : '';
+        const screenshotSrc = app.screenshot ? `public/screenshots/${app.screenshot}?v=2.3` : '';
         
         let statusBadgeHtml = '';
         if (app.demoUrl) {
@@ -581,7 +581,7 @@
 
       tbody.innerHTML = apps.map(app => {
         const catInfo = getCategoryInfo(app.category);
-        const screenshotSrc = app.screenshot ? `public/screenshots/${app.screenshot}` : '';
+        const screenshotSrc = app.screenshot ? `public/screenshots/${app.screenshot}?v=2.3` : '';
         const techStr = (app.techStack || []).slice(0, 3).join(', ');
 
         let statusText = app.demoUrl ? '<span style="color:#10b981; font-weight:600;">🟢 Live</span>' :
@@ -628,7 +628,7 @@
       document.getElementById('modalChatId').textContent = app.conversationId || '-';
 
       const heroImg = document.getElementById('modalHeroImg');
-      heroImg.src = app.screenshot ? `public/screenshots/${app.screenshot}` : '';
+      heroImg.src = app.screenshot ? `public/screenshots/${app.screenshot}?v=2.3` : '';
       heroImg.alt = app.name;
 
       // Status
