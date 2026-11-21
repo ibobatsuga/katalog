@@ -558,7 +558,7 @@
     "tagline": "Aplikasi Web Pemantau Iklim, Kualitas Udara & Lingkungan",
     "description": "Aplikasi Web Pemantau Iklim, Kualitas Udara & Lingkungan. Dikembangkan dan dirancang secara interaktif di lingkungan FLUXY.ID.",
     "category": "AI & Healthcare",
-    "demoUrl": "https://proclima.vercel.app",
+    "demoUrl": "https://proclima-iota.vercel.app/",
     "githubUrl": "https://github.com/ibobatsuga/proclima",
     "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/proclima",
     "techStack": [
