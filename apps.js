@@ -1025,5 +1025,86 @@ const APPS_DATA = [
     "date": "2026-11-21",
     "conversationId": "",
     "screenshot": "lakonai.png"
+  },
+  {
+    "id": "instadeck",
+    "name": "Instadeck",
+    "originalTitle": "InstaDeck PRO - AI Content Automation",
+    "tagline": "Platform Otomasi Konten Carousel, Story & Social Media Berbasis AI",
+    "description": "Platform otomasi konten Instagram, TikTok, Threads & Facebook berbasis AI. Menghasilkan micro-blog carousel, template viral, copywriting caption, dan penjadwalan multi-platform otomatis.",
+    "category": "Marketing & Growth",
+    "demoUrl": "https://pro.instadeck.id",
+    "githubUrl": "",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/instadeck-carousel",
+    "techStack": [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Canvas API",
+      "Vercel"
+    ],
+    "features": [
+      "Generator micro-blog carousel & feed otomatis",
+      "Pustaka template viral hook & visual aesthetics",
+      "AI Copywriting caption & hashtag optimization",
+      "Penjadwalan posting multi-platform Instagram & Threads"
+    ],
+    "date": "2026-11-22",
+    "conversationId": "",
+    "screenshot": "instadeck.png"
+  },
+  {
+    "id": "nalaniaga",
+    "name": "NalaNiaga",
+    "originalTitle": "NalaNiaga \u2014 CRM Freelancer & Agensi Kreatif",
+    "tagline": "Sistem Manajemen Hubungan Klien & Pelacak Pipeline Deal Freelancer / Agensi",
+    "description": "Sistem manajemen hubungan klien (Customer Relationship Management) dan pelacak pipeline deal modern berbasis PWA untuk freelancer, studio desain, developer independen, dan agensi kreatif.",
+    "category": "Productivity & Tools",
+    "demoUrl": "https://nalaniaga.vercel.app/",
+    "githubUrl": "https://github.com/ibobatsuga/nalaniaga",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/nalaniaga",
+    "techStack": [
+      "PWA",
+      "JavaScript",
+      "HTML5",
+      "CSS3 Grid/Flexbox",
+      "LocalStorage"
+    ],
+    "features": [
+      "Kanban pipeline prospek & deal 6 tahap konversi",
+      "Katalog layanan, paket harga, & proposal generator",
+      "Pelacakan milestone proyek, invoice & pembayaran termin",
+      "Portal ringkasan cashflow & analitik konversi client"
+    ],
+    "date": "2026-11-22",
+    "conversationId": "",
+    "screenshot": "nalaniaga.png"
+  },
+  {
+    "id": "amongwarga",
+    "name": "AmongWarga",
+    "originalTitle": "AmongWarga \u2014 Portal Layanan Mandiri Warga RT / RW",
+    "tagline": "Sistem Administrasi Kependudukan & Layanan Mandiri Surat Pengantar Digital",
+    "description": "Sistem administrasi kependudukan dan layanan mandiri surat pengantar digital berbasis PWA untuk warga RT/RW, buku tamu kependudukan, transparansi kas iuran warga, dan agenda posyandu/kerja bakti.",
+    "category": "Events & Wedding",
+    "demoUrl": "https://amongwarga.vercel.app",
+    "githubUrl": "https://github.com/ibobatsuga/pamongwarga",
+    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/pamongwarga",
+    "techStack": [
+      "PWA",
+      "JavaScript",
+      "HTML5 Semantik",
+      "CSS3",
+      "Vercel"
+    ],
+    "features": [
+      "Layanan mandiri surat pengantar RT/RW resmi instan",
+      "Buku induk kependudukan & sensus data keluarga RT",
+      "Transparansi kas iuran bulanan warga & rekap saldo",
+      "Papan pengumuman agenda ronda, posyandu & kerja bakti"
+    ],
+    "date": "2026-11-22",
+    "conversationId": "",
+    "screenshot": "amongwarga.png"
   }
 ];
