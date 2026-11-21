@@ -841,59 +841,6 @@ const APPS_DATA = [
     "screenshot": "phantomlab.png"
   },
   {
-    "id": "phantomlab",
-    "name": "SoundLab / CiptaSuara",
-    "originalTitle": "App-DEV PhantomLab",
-    "tagline": "AI Voice Generation & Studio Rekaman Suara Canggih",
-    "description": "AI Voice Generation & Studio Rekaman Suara Canggih. Dikembangkan dan dirancang secara interaktif di lingkungan FLUXY.ID.",
-    "category": "Audio & Creative",
-    "demoUrl": "https://soundlab-ecru.vercel.app",
-    "githubUrl": "https://github.com/ibobatsuga/soundlab.git",
-    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/xxlchicken-soundlab",
-    "techStack": [
-      "Next.js",
-      "FastAPI",
-      "PyTorch",
-      "Tailwind CSS",
-      "Vercel"
-    ],
-    "features": [
-      "Kloning karakter suara manusia dari cuplikan audio",
-      "Text-to-Speech ekspresif dengan intonasi natural",
-      "Audio mastering & noise reduction satu klik",
-      "Player preview audio dengan kontrol kecepatan & pitch"
-    ],
-    "date": "2026-10-20",
-    "conversationId": "eac2edb3-76a2-4cf5-b24d-032741f44ee4",
-    "screenshot": "phantomlab.png"
-  },
-  {
-    "id": "undanganku-id",
-    "name": "Undanganku.id",
-    "originalTitle": "App-DEV undanganku.id",
-    "tagline": "SaaS Platform Pembuat Undangan Pernikahan Online",
-    "description": "SaaS Platform Pembuat Undangan Pernikahan Online. Dikembangkan dan dirancang secara interaktif di lingkungan FLUXY.ID.",
-    "category": "Events & Wedding",
-    "demoUrl": "https://undanganku.id",
-    "githubUrl": "https://github.com/dewanakl/undangan.git",
-    "scratchPath": "/Users/ibobatsuga/.gemini/antigravity/scratch/undangan",
-    "techStack": [
-      "PHP",
-      "Bootstrap 5",
-      "jQuery",
-      "MySQL"
-    ],
-    "features": [
-      "Pilihan lusinan tema desain modern & elegan",
-      "Kirim undangan personal dengan nama tamu berbeda",
-      "Fitur kirim amplop digital & kado fisik",
-      "Countdown timer hitung mundur hari pernikahan"
-    ],
-    "date": "2026-10-20",
-    "conversationId": "756713c8-0d13-4604-892b-e9edfd90c317",
-    "screenshot": "undanganku-id.png"
-  },
-  {
     "id": "dashdish",
     "name": "DashDish",
     "originalTitle": "DashDish - Pesan Antar Kedai Mandiri",
